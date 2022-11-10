@@ -1,0 +1,50 @@
+.perguntas details.detalhes {
+  padding: 2rem;
+  border: 1px solid var(--cor-5);
+  border-radius: 4px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  transition: 0.3s;
+}
+
+.perguntas details {
+  transition: all 0.3s ease-in-out;
+}
+.perguntas h2 {
+  margin-top: 120px;
+}
+summary {
+  list-style: none;
+}
+.detalhes summary {
+  cursor: pointer;
+}
+.perguntas details[open].detalhes {
+  background-color: rgba(236, 231, 207, 0.595);
+}
+
+.detalhes p {
+  margin-top: 20px;
+}
+.detalhes summary::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-right: 8px;
+  transition: width 0.3s;
+}
+.detalhes:hover summary::before {
+  width: 20px;
+}
+.detalhes summary {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .detalhes summary {
+    font-size: 14px;
+  }
+}
