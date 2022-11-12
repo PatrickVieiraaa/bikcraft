@@ -12,6 +12,7 @@
 
 /*Utilidades*/
 @import "./utilidadedes/componentes.css";
+@import "./utilidadedes/formulario.css";
 
 /*Bicicletas*/
 
@@ -28,4 +29,11 @@
 @import "./seguros/perguntas.css";
 
 /*termos*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+/*termos*/
 @import "./termos/termos.css";
+
+/*orçamento*/
+@import "./orcamento/orcamento.css";
